@@ -56,11 +56,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1         &kp F2     &kp F3          &kp F4        &kp F5       &mmv MOVE_UP     &kp F6     &kp F7     &kp F8     &kp F9     &kp F10           &kp DELETE
-&trans      &kp LG(GRAVE)  &mkp LCLK  &mkp MCLK       &mkp RCLK     &mkp MB4     &mmv MOVE_DOWN   &kp PG_UP  &kp END    &kp UP     &kp HOME   &kp MINUS         &kp EQUAL
-&kp CAPS    &kp TILDE      &kp KP_N9  &msc SCRL_DOWN  &msc SCRL_UP  &mkp MB5     &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT   &kp DOWN   &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &kp KP_N1      &kp KP_N2  &kp KP_N3       &kp KP_N4     &kp KP_N5    &mmv MOVE_RIGHT  &kp KP_N6  &kp KP_N7  &kp KP_N8  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans         &trans     &trans          &trans        &trans       &mkp LCLK        &trans     &trans     &trans     &trans     &kp LC(SPACE)
+&kp GRAVE   &kp F1         &kp F2     &kp F3          &kp F4        &kp F5      &mmv MOVE_UP     &kp F6     &kp F7    &kp F8    &kp F9     &kp F10           &kp DELETE
+&trans      &kp LG(GRAVE)  &mkp LCLK  &mkp MCLK       &mkp RCLK     &mkp MB4    &mmv MOVE_DOWN   &kp PG_UP  &kp END   &kp UP    &kp HOME   &kp MINUS         &kp EQUAL
+&kp CAPS    &kp TILDE      &kp F23    &msc SCRL_DOWN  &msc SCRL_UP  &mkp MB5    &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &kp F13        &kp F16    &kp F17         &kp F18       &kp F19     &mmv MOVE_RIGHT  &kp F20    &kp F21   &kp F22   &kp F11    &kp F12           &trans
+&kp C_MUTE  &trans         &trans     &trans          &trans        &trans      &mkp LCLK        &trans     &trans    &trans    &trans     &kp LC(SPACE)
             >;
 
             display-name = "layer1";
